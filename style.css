@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 :root {
   --softBlue: #8bacda;
   --cyan: #00fff7;
@@ -22,7 +22,7 @@
   padding: 0;
 }
 body {
-  font-family: "Outfit", sans-serif;
+  font-family: 'Outfit', sans-serif;
   background-color: var(--veryDarkBlueMainBg);
   overflow: hidden;
 }
@@ -70,7 +70,7 @@ body {
   background-size: cover, 20%;
   background-repeat: repeat, no-repeat;
   background-position: center;
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   left: 0;
@@ -83,27 +83,29 @@ body {
 .heading__primary {
   color: var(--white);
   text-align: left;
-  font-size: 18px;
+  font-size: 14px;
   letter-spacing: 0.7px;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 .heading__description {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 12px;
 }
 .details {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   width: 100%;
+  font-size: 12px;
 }
-.details p {
+.details div {
   display: flex;
   align-items: center;
+  gap: 2px;
 }
+
 .details-text {
   display: inline-block;
-  margin-left: 4px;
 }
 .text--white {
   color: var(--white);
@@ -114,6 +116,22 @@ body {
 .text--cyan {
   color: var(--cyan);
 }
+.etherum-icon {
+  background: url('./images/icon-ethereum.svg');
+}
+.clock-icon {
+  background: url('./images/icon-clock.svg');
+}
+.etherum-icon,
+.clock-icon {
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+  background-position: 0 50%;
+}
+
 .author {
   display: flex;
   align-items: center;
@@ -129,7 +147,7 @@ body {
   color: var(--softBlue);
 }
 .author__image-container {
-  width: 12%;
+  width: 10%;
   display: inline-block;
 }
 .author__image {
@@ -139,7 +157,7 @@ body {
   width: 100%;
 }
 .author__name {
-  font-size: 15px;
+  font-size: 12px;
   font-weight: 300;
 }
 
