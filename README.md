@@ -1,5 +1,5 @@
 # The page is live at
-https://front-end-mentor-works.github.io/nft-cube/
+https://sinan14.github.io/nft-cube/
 # Frontend Mentor - NFT preview card component
 
 ![Design preview for the NFT preview card component coding challenge](./design/desktop-preview.jpg)
